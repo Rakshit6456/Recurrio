@@ -5,12 +5,12 @@ import {styled} from "nativewind"
 
 const SafeAreaView = styled(RNSafeReaView);
 
-const insights = () => {
+const subscriptions = () => {
   return (
     <SafeAreaView className="flex-1 r p-5 bg-background">
-      <Text>insights</Text>
+      <Text>subsciptions</Text>
     </SafeAreaView>
   )
 }
 
-export default insights
+export default subscriptions
